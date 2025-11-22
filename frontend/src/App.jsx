@@ -1,11 +1,12 @@
 import "./App.css";
-import products from "./data/products";
+import React from "react";
+//import Product from "../../backend/data/products";
 import GroceriesAppContainer from "./Components/GroceriesAppContainer";
 
 function App() {
   return (
     <>
-      <GroceriesAppContainer products={products} />
+      <GroceriesAppContainer/>
     </>
   );
 }

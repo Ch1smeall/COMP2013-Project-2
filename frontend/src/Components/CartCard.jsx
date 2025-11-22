@@ -1,3 +1,4 @@
+import React from "react";
 import QuantityCounter from "./QuantityCounter";
 
 export default function CartCard({

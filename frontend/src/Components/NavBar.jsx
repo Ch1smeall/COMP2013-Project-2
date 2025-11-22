@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function NavBar({ quantity }) {
   return (
     <nav className="NavBar">
